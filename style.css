@@ -189,11 +189,11 @@ html {
 }
 
 .navbar-nav a {
-    font-size: 2vh;
+    font-size: 1.6vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #17395c;
     transition: color 0.3s ease, transform 0.3s ease;
-    margin-right: 4vh;
+    margin-right: 2vh;
 }
 
 .navbar-nav a:hover {

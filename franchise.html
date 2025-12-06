@@ -271,11 +271,11 @@
         }
 
         .navbar-nav a {
-            font-size: 2.5vh;
+            font-size: 1.6vh;
             font-family: Georgia, 'Times New Roman', Times, serif;
             color: #17395c;
             transition: color 0.3s ease, transform 0.3s ease;
-            margin-right: 4vh;
+            margin-right: 2vh;
         }
 
         .navbar-nav a:hover {
@@ -573,78 +573,97 @@
             <h1 class="desktop-only">Franchise Opportunity</h1>
             <p>Start your own Viva Kids World preschool today! In minimum 1500* sq. feet space</p>
             <div class="stats-container">
-                <div class="stat-box pad" style="padding-top: 5%;">
+                <a href="franchise-brand.html" class="stat-box">
+                    <img src="logo1-removebg-preview.png" alt="Brand Icon">
+                    <h5>Established Brand</h5>
+                </a>
+
+                <a href="franchise-no-royalty.html" class="stat-box">
                     <img src="noroyalty.png" alt="No Royalty Icon">
                     <h5>No Royalty</h5>
-                </div>
+                </a>
 
-                <div class="stat-box pad" style="padding-top: 5%;">
+                <a href="franchise-emi.html" class="stat-box">
                     <img src="emi.png" alt="EMI Icon">
                     <h5>EMI</h5>
-                </div>
+                </a>
 
-                <div class="stat-box">
-                    <img src="experience.jpg" alt="Experience Icon">
-                    <h5>20+ Yr</h5>
-                    <h5>Experience</h5>
-                </div>
+                <a href="franchise-quality.html" class="stat-box">
+                    <img src="international.png" alt="Quality Icon">
+                    <h5>International Quality</h5>
+                </a>
 
-                <div class="stat-box">
-                    <img src="360.jpg" alt="Support Icon">
-                    <h5>360°</h5>
-                    <h5>Support</h5>
-                </div>
+                <a href="franchise-training.html" class="stat-box">
+                    <img src="training-removebg-preview.png" alt="Training Icon">
+                    <h5>Training Support</h5>
+                </a>
+
+                <a href="franchise-support.html" class="stat-box">
+                    <img src="extensivesupport.png" alt="Support Icon">
+                    <h5>Extensive Support</h5>
+                </a>
             </div>
 
             <style>
                 .stats-container {
                     display: flex;
-                    /* justify-content: space-around; */
+                    justify-content: center;
                     text-align: center;
-                    gap: 10px;
+                    gap: 30px;
                     flex-wrap: wrap;
-                    /* Allow wrapping */
-
+                    max-width: 1000px;
+                    margin: 0 auto;
                 }
 
-
                 .stat-box {
-                    width: 140px;
-                    height: 160px;
+                    width: 200px;
+                    height: 180px;
                     padding: 20px;
-                    border: 1px solid #ccc;
-                    border-radius: 10px;
+                    border: 2px solid #17395c;
+                    border-radius: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
                     justify-content: center;
-                    /* Ensures content is centered */
+                    text-decoration: none;
+                    background-color: white;
+                    color: #17395c;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                }
+
+                .stat-box:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+                    color: #17395c;
+                    /* Keep text color consistent on hover */
                 }
 
                 .stat-box img {
-                    width: 40px;
-                    height: 40px;
-                    margin-bottom: 10px;
+                    width: 60px;
+                    height: 60px;
+                    object-fit: contain;
+                    margin-bottom: 15px;
+                }
+
+                .stat-box h5 {
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                    margin: 0;
+                    font-family: Arial, sans-serif;
                 }
 
                 /* Responsive Design */
-                @media (max-width: 768px) {
-                    .stats-container {
-                        justify-content: center;
-                        /* Center items on mobile */
-                    }
-
+                @media (max-width: 992px) {
                     .stat-box {
-                        width: 80%;
-                        /* Make boxes take more space on small screens */
-                        max-width: 200px;
-                        /* Prevent excessive stretching */
+                        width: 45%;
                     }
+                }
 
-                    .pad h5 {
-                        padding-top: 10%;
-                    }
-
-                    .pad img {
-
-                        margin-top: 10%;
+                @media (max-width: 576px) {
+                    .stat-box {
+                        width: 100%;
+                        max-width: 250px;
                     }
                 }
             </style>
