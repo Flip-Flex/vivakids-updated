@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 const Philosophy = () => {
     return (
         <div
+            id="philosophy"
             className="w-full py-16 px-[7%] bg-cover bg-center bg-fixed"
             style={{ backgroundImage: "url('/assets/bgphilosophy.jpg')" }}
         >

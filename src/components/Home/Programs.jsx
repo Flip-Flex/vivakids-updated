@@ -12,7 +12,7 @@ const Programs = () => {
     ];
 
     return (
-        <div id="littlescholors" className="w-full py-16 px-[7%] relative">
+        <div id="programs" className="w-full py-16 px-[7%] relative">
             <div className="absolute inset-0 bg-secondary/10 -z-10 skew-y-3 transform origin-top-left scale-110"></div>
 
             <div className="mb-16">

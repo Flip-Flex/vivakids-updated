@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const About = () => {
     return (
         <div
-            id="aboutus"
+            id="about"
             className="w-full py-16 px-[7%] bg-cover bg-center bg-fixed"
             style={{ backgroundImage: "url('/assets/bgaboutus.jpg')" }}
         >
