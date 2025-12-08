@@ -8,6 +8,7 @@ import ScrollToTop from './components/ScrollToTop';
 import BackgroundWrapper from './components/Layout/BackgroundWrapper';
 import SmoothScroll from './components/SmoothScroll';
 
+// Vercel deployment fix
 function App() {
   return (
     <SmoothScroll>
