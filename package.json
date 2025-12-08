@@ -7,11 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
-  "homepage": "https://flip-flex.github.io/vivakids-updated",
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.25",
