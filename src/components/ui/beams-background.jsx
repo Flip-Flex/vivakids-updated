@@ -131,7 +131,7 @@ export function BeamsBackground({
             // ctx.filter = "blur(35px)"; // Moving blur to canvas style for performance if possible, or keep here.
             // Keeping as is but noting ctx.filter might be heavy. 
             // The Original code uses ctx.filter.
-            ctx.filter = "blur(35px)";
+            // ctx.filter = "blur(35px)";
 
             const totalBeams = beamsRef.current.length;
             beamsRef.current.forEach((beam, index) => {
@@ -169,7 +169,7 @@ export function BeamsBackground({
             <canvas
                 ref={canvasRef}
                 className="absolute inset-0"
-                style={{ filter: "blur(15px)" }}
+                style={{ filter: "blur(40px)" }}
             />
 
             <motion.div
